@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>user-managment</title>
+</head>
+<body>
+    <div class="loader">loading...</div> 
+    <div class="contaner">
+
+        <button class="create">Create New User</button>
+        <table class=table>
+            <thead>
+                <tr>
+                    <!-- <th class="head">Id</th> -->
+                    <th class="head">Name</th>
+                    <th class="head">Email</th>
+                    <th class="head">phone number</th>
+                    <th class="head">website</th>
+                    <th class="head">Action
+                    </th>
+                  </tr>
+            </thead>
+              <tbody></tbody>
+          </table>
+          
+    </div>
+    <form action="" class="form" >
+        <div class="modal">
+            <input type="hidden">
+            <div class="input-box">
+                <label class="label-text" for="name">name</label>
+                <input id="name" type="text" class="text-input" name="name" required>
+            </div>
+            <div class="input-box">
+                <label class="label-text" for="email">email</label>
+                <input type="email" class="text-input" name="email"required>
+            </div>
+            <div class="input-box">
+                <label class="label-text" for="phone">phone</label>
+                <input type="text" class="text-input" name="phone" value="" required>
+            </div>
+            <div class="input-box">
+                <label class="label-text" for="website">website</label>
+                <input type="text" class="text-input" name="website" required>
+            </div>
+            <div class="buttonDiv">
+                <button  type="button" class="close">Close</button>
+                <button class="submit" >Save</button>
+            </div>
+        </div>
+    </form>
+   
+    
+    <script src="main.js"></script>
+</body>
+</html>
